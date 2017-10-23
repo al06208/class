@@ -20,6 +20,7 @@ public class ExampleOfThrowingException {
 			result = x*2;
 		}else throw new InputMismatchException();
 		return result;
+		//test
 	}
 
 }
