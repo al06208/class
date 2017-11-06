@@ -9,6 +9,7 @@ import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -28,6 +29,13 @@ public class MyCardGame extends Application {
 		cards[3] = new Image("https://upload.wikimedia.org/wikipedia/commons/b/be/Poker-sm-231-Ad.png");
 		ImageView iv = new ImageView();
 		iv.setImage(cards[imgNum]);
+		
+	//	StackPane sPane = new StackPane();
+	//	sPane.getChildren().add(new ImageView(new Image("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/01_of_spades_A.svg/1200px-01_of_spades_A.svg.png")));
+		
+		
+		
+		
 		Button btnNext = new Button("Next");
 		btnNext.setOnAction(new EventHandler<ActionEvent>() {
 
